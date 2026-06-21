@@ -25,13 +25,11 @@ Aplicação web moderna para gerenciamento de tarefas desenvolvida com **Next.js
 
 ##  Tecnologias utilizadas
 
-- Next.js 14  
-- React  
-- TypeScript  
-- CSS Modules / CSS Global  
-- LocalStorage  
-- ESLint  
-- Vercel (deploy)  
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
