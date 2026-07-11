@@ -43,6 +43,11 @@
 
 </p>
 
+<p align="center">
+  <b>Demo video:</b>
+</p>
+
+https://github.com/user-attachments/assets/dfb83876-a519-404e-841d-f92b181d4144
 
 ---
 
@@ -56,10 +61,10 @@
 - Architecture
 - Project Structure
 - Getting Started
+- Production Build
 - Deployment
 - Roadmap
 - License
-
 
 ---
 
@@ -70,7 +75,6 @@ Task Manager is a modern web application developed with Next.js that allows user
 The application provides task creation, editing, completion tracking, filtering and statistics, with a responsive interface optimized for desktop and mobile devices.
 
 The project focuses on frontend architecture, state management, user experience and modern web development practices.
-
 
 ---
 
@@ -87,7 +91,6 @@ This project was built to practice and demonstrate:
 - Modern frontend workflows
 - Deployment with Vercel
 
-
 ---
 
 # Screenshots
@@ -95,7 +98,6 @@ This project was built to practice and demonstrate:
 ## Dashboard
 
 ![Dashboard](https://github.com/user-attachments/assets/6937136f-5849-4e04-9458-9a83e330757c)
-
 
 ---
 
@@ -112,7 +114,6 @@ This project was built to practice and demonstrate:
 - ✅ Responsive layout for desktop and mobile
 - ✅ LocalStorage data persistence
 
-
 ---
 
 # Technology Stack
@@ -126,7 +127,6 @@ This project was built to practice and demonstrate:
 | Storage | Browser LocalStorage |
 | Deployment | Vercel |
 | Version Control | Git & GitHub |
-
 
 ---
 
@@ -151,7 +151,6 @@ The application uses a component-based architecture with React and Next.js.
 
 Task data is stored locally in the browser using LocalStorage, allowing users to maintain their tasks without requiring an external database.
 
-
 ---
 
 # Project Structure
@@ -175,7 +174,6 @@ task-manager/
 └── README.md
 ```
 
-
 ---
 
 # Getting Started
@@ -184,7 +182,6 @@ task-manager/
 
 - Node.js 18+
 - npm
-
 
 ## Installation
 
@@ -204,7 +201,6 @@ The development server will be available at:
 http://localhost:3000
 ```
 
-
 ---
 
 # Production Build
@@ -215,7 +211,6 @@ To create a production build:
 npm run build
 npm start
 ```
-
 
 ---
 
@@ -230,7 +225,6 @@ Production URL:
 ```
 https://gerenciador-de-tarefas-one-pearl.vercel.app/
 ```
-
 
 ---
 
@@ -247,7 +241,6 @@ https://gerenciador-de-tarefas-one-pearl.vercel.app/
 - [ ] Cloud database integration
 - [ ] User accounts
 - [ ] Task sharing
-
 
 ---
 
