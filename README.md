@@ -20,7 +20,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -120,10 +120,12 @@ This project was built to practice and demonstrate:
 
 | Layer | Technology |
 |------|------------|
-| Framework | Next.js |
-| Frontend Library | React |
+| Framework | Next.js 16 |
+| Frontend Library | React 19 |
 | Language | TypeScript |
-| Styling | CSS3 |
+| Styling | Tailwind CSS 4 |
+| Animations | Framer Motion |
+| Icons | Lucide React |
 | Storage | Browser LocalStorage |
 | Deployment | Vercel |
 | Version Control | Git & GitHub |
@@ -156,17 +158,14 @@ Task data is stored locally in the browser using LocalStorage, allowing users to
 # Project Structure
 
 ```
-task-manager/
+gerenciador-tarefas/
 │
 ├── public/
 │
-├── src/
-│   ├── app/
-│   ├── components/
-│   ├── hooks/
-│   ├── styles/
-│   ├── utils/
-│   └── types/
+├── app/
+├── components/
+├── hooks/
+├── types/
 │
 ├── package.json
 ├── tsconfig.json
@@ -180,7 +179,7 @@ task-manager/
 
 ## Prerequisites
 
-- Node.js 18+
+- Node.js 20.9+
 - npm
 
 ## Installation
