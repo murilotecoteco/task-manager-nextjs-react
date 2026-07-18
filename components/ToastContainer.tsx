@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import { X } from "lucide-react";
 import { useToast } from "@/hooks/useToast";
 import type { ToastVariant } from "@/types/toast";
 
@@ -44,7 +45,7 @@ export function ToastContainer() {
               aria-label="Fechar notificação"
               className="text-white/60 transition hover:text-white"
             >
-              ✕
+              <X className="h-4 w-4" />
             </button>
           </motion.div>
         ))}
