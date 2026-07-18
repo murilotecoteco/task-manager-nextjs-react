@@ -2,6 +2,7 @@ import { CheckCircle2, FileText, Rocket } from "lucide-react";
 import type { ComponentType } from "react";
 import type { TaskFilterType } from "@/types/task";
 
+<<<<<<< HEAD
 const COPY: Record<
   TaskFilterType,
   { icon: ComponentType<{ className?: string }>; title: string; subtitle: string }
@@ -9,6 +10,12 @@ const COPY: Record<
   all: { icon: FileText, title: "Nenhuma tarefa ainda", subtitle: "Adicione sua primeira tarefa para começar." },
   pending: { icon: CheckCircle2, title: "Tudo em dia!", subtitle: "Não há tarefas pendentes no momento." },
   completed: { icon: Rocket, title: "Nada concluído ainda", subtitle: "Marque uma tarefa como feita para vê-la aqui." },
+=======
+const COPY: Record<TaskFilterType, { icon: string; title: string; subtitle: string }> = {
+  all: { icon: "📝", title: "Nenhuma tarefa ainda", subtitle: "Adicione sua primeira tarefa para começar." },
+  pending: { icon: "✅", title: "Tudo em dia!", subtitle: "Não há tarefas pendentes no momento." },
+  completed: { icon: "", title: "Nada concluído ainda", subtitle: "Marque uma tarefa como feita para vê-la aqui." },
+>>>>>>> 52665b19ea808361aa11d7b9ce8a60a6b08d438d
 };
 
 export function EmptyState({ filter }: { filter: TaskFilterType }) {
