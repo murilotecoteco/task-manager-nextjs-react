@@ -11,7 +11,7 @@
 <p align="center">
 
 ![Status](https://img.shields.io/badge/status-completed-success)
-![License](https://img.shields.io/badge/license-none-lightgrey)
+
 
 </p>
 
