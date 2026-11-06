@@ -2,7 +2,7 @@
 
 Aplicação web de gerenciamento de tarefas construída com Next.js, React e TypeScript. Projeto prático para estudar organização de estado, experiência de uso e persistência no navegador.
 
-[![Status](https://img.shields.io/badge/status-completed-success)](https://github.com/murilotecoteco/task-manager-nextjs-react)
+[![Status](https://img.shields.io/badge/status-educational%20demo-blue)](https://github.com/murilotecoteco/task-manager-nextjs-react)
 
 [Demo](https://gerenciador-de-tarefas-one-pearl.vercel.app/) · [Código-fonte](https://github.com/murilotecoteco/task-manager-nextjs-react)
 
