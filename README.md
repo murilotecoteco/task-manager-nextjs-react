@@ -37,7 +37,7 @@
 <img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge">
 </a>
 
-<a href="https://github.com/murilotecoteco/Gerenciador-de-Tarefas">
+<a href="https://github.com/murilotecoteco/task-manager-nextjs-react">
 <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge">
 </a>
 
@@ -185,9 +185,9 @@ gerenciador-tarefas/
 ## Installation
 
 ```bash
-git clone https://github.com/murilotecoteco/Gerenciador-de-Tarefas.git
+git clone https://github.com/murilotecoteco/task-manager-nextjs-react.git
 
-cd Gerenciador-de-Tarefas
+cd task-manager-nextjs-react
 
 npm install
 
